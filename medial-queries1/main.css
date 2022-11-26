@@ -1,3 +1,43 @@
 body {
   background: blanchedalmond;
 }
+
+.container > div{
+  flex-grow: 1;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.a {
+  height: 7rem;
+}
+
+.b{
+  height: 115rem;
+}
+
+.c{
+  height: 7rem;
+}
+
+@media screen and (min-width: 1000px){
+  .a{
+    height: 20rem;
+  }
+  .b{
+    width: 70%;
+    float: left;
+  }
+  
+  .c{
+    width: 26%;
+    float: right;
+    height: 115rem;
+  }
+  
+}
