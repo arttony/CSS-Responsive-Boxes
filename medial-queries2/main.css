@@ -72,7 +72,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   justify-content: flex-start;
+    justify-content: flex-start;
   }
   
   .b{
@@ -80,12 +80,19 @@ body {
   }
   .c{
     order: 1;
+    height: 350px;
+    width: 350px;
   }
   .d{
     order: 2;
+    height: 350px;
+    width: 350px;
   }
   .e{
     order: 3;
+    height: 350px;
+    width: 350px;
+
   }
   .f{
     width: 39%;
