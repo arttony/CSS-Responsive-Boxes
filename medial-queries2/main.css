@@ -12,23 +12,20 @@ CHANGE THE PX TO REM
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
-  gap: 10px;
 }
 
 /* center the content inside the divs*/
 .container > div{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  
 }
 
 .a{
   min-width: 100%;
-  min-height: 80px;
+  min-height: 15rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
@@ -36,31 +33,34 @@ CHANGE THE PX TO REM
 
 .b{
   min-width: 100%;
-  min-height: 200px;
+  min-height: 60rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 .c{
-  min-height: 5rem;
-  min-width: 5rem;
+  
+  min-height: 18rem;
+  min-width: 18rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 .d{
-  min-height: 5rem;
-  min-width: 5rem;
+  display: flex;
+  min-height: 18rem;
+  min-width: 18rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
+  align-items:center;
 }
 
 .e{
-  min-height: 5rem;
-  min-width: 5rem;
+  min-height: 18rem;
+  min-width: 18rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
@@ -68,19 +68,18 @@ CHANGE THE PX TO REM
 
 .f{
   min-width: 100%;
-  height: 80px;
+  min-height: 15rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 /*desktop view*/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1000px){
   .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
   }
   
   .b{
@@ -89,22 +88,23 @@ CHANGE THE PX TO REM
   }
   .c{
     order: 1;
-    min-height: 5em;
-    min-width: 5em;
+    min-height: 15rem;
+    min-width: 15rem;
   }
   .d{
     order: 2;
-    min-height: 5em;
-    min-width: 5em;
+    min-height: 15rem;
+    min-width: 15rem;
   }
   .e{
     order: 3;
-    min-height: 5em;
-    width: 5em;
-
+    min-height: 15rem;
+    min-width: 15rem;
+    margin: 0 30rem 0 0;
   }
   .f{
     min-width: 38%;
     min-height: 150rem;
+    margin: 0 0 -15rem 0;
   }
 }

@@ -6,7 +6,7 @@ body {
 .container {
   display: flex;
   flex-flow: row wrap;
-  align-content: space-between;
+  gap: 10px;
 }
 
 /*.container > div{
@@ -65,7 +65,7 @@ body {
   }
   
   .c{
-    min-width: 22%;
+    min-width: 29%;
     min-height: 115rem;
   }
   
