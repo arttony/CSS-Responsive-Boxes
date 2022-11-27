@@ -48,9 +48,25 @@ body {
 }
 
 /*desktop view*/
-@media screen and (min-width:"600px") {
+@media screen and (min-width: 600px) {
   .container{
     display: flex;
     flex-wrap: wrap;
   }
+
+  .b,
+  .c,
+  .d,
+  .e,
+  .f,
+  .g {
+    min-width: 15rem;
+    min-height: 15rem;
+  }
+
+  .h {
+    min-width: 10rem;
+    min-height: 10rem;
+  }
+
 }
