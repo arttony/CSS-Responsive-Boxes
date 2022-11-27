@@ -32,7 +32,7 @@ body {
   }
 
   .a{
-    height: 20rem;
+    min-height: 20rem;
     min-width: 100%;
   }
   .b{
