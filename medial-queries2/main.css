@@ -68,14 +68,27 @@ body {
 }
 
 @media screen and (min-width: 1000px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: flex-start;
+  }
+  
   .b{
-    align-items: flex-start;
     width: 60%
   }
   .c{
-    
+    order: 1;
+  }
+  .d{
+    order: 2;
+  }
+  .e{
+    order: 3;
   }
   .f{
-    flex-direction: column;
+    width: 39%;
+    height: 200px;
   }
 }
