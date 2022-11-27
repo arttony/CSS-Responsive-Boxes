@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  flex-wrap: wrap;
 }
 
 .a {
@@ -18,15 +19,17 @@ body {
 }
 
 .b{
+  width: 100%;
   min-height: 115rem;
 }
 
 .c{
-  min-height: 7rem;
+  width: 100%;
+  min-height: 5rem;
 }
 
 /*desktop view*/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
   .container{
     display: flex;
     flex-direction: row;
