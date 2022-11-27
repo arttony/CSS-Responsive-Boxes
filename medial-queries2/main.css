@@ -2,48 +2,80 @@ body {
   background: papayawhip;
 }
 
-.container > div{
-  border: 1px solid gray;
-  background-color: lightgray;
-  border-radius: .3rem;
+.container {
   display: flex;
-  align-items: center ;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
+}
+
+.container > div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .a{
-  height: 5rem;
-}
-
-.b{
-  height: 10rem;
-}
-
-/*.column-layout{
+  width: 100%;
+  height: 80px;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
-  display: flex;
-  align-items: center ;
-  justify-content: center;
-}*/
+}
+
+.b{
+  width: 100%;
+  height: 200px;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
+}
 
 .c{
-  width: 2rem;
-  height: 2rem;
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
 }
 
 .d{
-  width: 2rem;
-  height: 2rem;
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
 }
 
 .e{
-  width: 2rem;
-  height: 2rem;
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
 }
 
 .f{
-  height: 5rem;
+  width: 100%;
+  height: 80px;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
 }
 
+@media screen and (min-width: 1000px){
+  .b{
+    align-items: flex-start;
+    width: 60%
+  }
+  .c{
+    
+  }
+  .f{
+    flex-direction: column;
+  }
+}
