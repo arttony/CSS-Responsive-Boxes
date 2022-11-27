@@ -1,3 +1,49 @@
 body {
   background: papayawhip;
 }
+
+.container > div{
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
+
+.a{
+  height: 5rem;
+}
+
+.b{
+  height: 10rem;
+}
+
+/*.column-layout{
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}*/
+
+.c{
+  width: 2rem;
+  height: 2rem;
+}
+
+.d{
+  width: 2rem;
+  height: 2rem;
+}
+
+.e{
+  width: 2rem;
+  height: 2rem;
+}
+
+.f{
+  height: 5rem;
+}
+
