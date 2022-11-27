@@ -2,6 +2,8 @@ body {
   background: papayawhip;
 }
 
+
+/*display for mobile*/
 .container {
   display: flex;
   flex-direction: row;
@@ -20,52 +22,53 @@ body {
 }
 
 .a{
-  width: 100%;
-  height: 80px;
+  min-width: 100%;
+  min-height: 80px;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 .b{
-  width: 100%;
-  height: 200px;
+  min-width: 100%;
+  min-height: 200px;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 .c{
-  height: 5rem;
-  width: 5rem;
+  min-height: 5rem;
+  min-width: 5rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 .d{
-  height: 5rem;
-  width: 5rem;
+  min-height: 5rem;
+  min-width: 5rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 .e{
-  height: 5rem;
-  width: 5rem;
+  min-height: 5rem;
+  min-width: 5rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
 
 .f{
-  width: 100%;
+  min-width: 100%;
   height: 80px;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
 }
+
 
 @media screen and (min-width: 600px){
   .container{
@@ -76,27 +79,27 @@ body {
   }
   
   .b{
-    width: 60%;
-    height: 100rem;
+    min-width: 60%;
+    min-height: 100rem;
   }
   .c{
     order: 1;
-    height: 5em;
-    width: 5em;
+    min-height: 5em;
+    min-width: 5em;
   }
   .d{
     order: 2;
-    height: 5em;
-    width: 5em;
+    min-height: 5em;
+    min-width: 5em;
   }
   .e{
     order: 3;
-    height: 5em;
+    min-height: 5em;
     width: 5em;
 
   }
   .f{
-    width: 38%;
-    height: 150rem;
+    min-width: 38%;
+    min-height: 150rem;
   }
 }
