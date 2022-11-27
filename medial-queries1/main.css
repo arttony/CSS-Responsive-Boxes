@@ -2,6 +2,7 @@ body {
   background: blanchedalmond;
 }
 
+/*mobile view*/
 .container > div{
   border: 1px solid gray;
   background-color: lightgray;
@@ -24,6 +25,7 @@ body {
   min-height: 7rem;
 }
 
+/*desktop view*/
 @media screen and (min-width: 600px){
   .container{
     display: flex;

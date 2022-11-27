@@ -2,6 +2,7 @@ body {
   background: peachpuff;
 }
 
+/*mobile view*/
 .container {
   display: flex;
   flex-direction: row;
@@ -9,6 +10,7 @@ body {
   gap: 1rem;
 }
 
+/* center the content inside the divs*/
 .container> div{
   display: flex;
   align-items: center;
@@ -45,6 +47,7 @@ body {
   border-radius: .3rem;
 }
 
+/*desktop view*/
 @media screen and (min-width:"600px") {
   .container{
     display: flex;
