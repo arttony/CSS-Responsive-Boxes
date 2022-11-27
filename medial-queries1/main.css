@@ -3,7 +3,6 @@ body {
 }
 
 .container > div{
-  flex-grow: 1;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
@@ -25,18 +24,23 @@ body {
   height: 7rem;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 600px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .a{
     height: 20rem;
+    width: 100%;
   }
   .b{
     width: 70%;
-    float: left;
   }
   
   .c{
-    width: 20%;
-    float: right;
+    width: 22%;
     height: 115rem;
   }
   

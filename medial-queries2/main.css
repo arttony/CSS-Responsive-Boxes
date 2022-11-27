@@ -67,7 +67,7 @@ body {
   border-radius: .3rem;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 600px){
   .container{
     display: flex;
     flex-direction: row;
@@ -76,26 +76,27 @@ body {
   }
   
   .b{
-    width: 60%
+    width: 60%;
+    height: 100rem;
   }
   .c{
     order: 1;
-    height: 350px;
-    width: 350px;
+    height: 5em;
+    width: 5em;
   }
   .d{
     order: 2;
-    height: 350px;
-    width: 350px;
+    height: 5em;
+    width: 5em;
   }
   .e{
     order: 3;
-    height: 350px;
-    width: 350px;
+    height: 5em;
+    width: 5em;
 
   }
   .f{
-    width: 39%;
-    height: 200px;
+    width: 38%;
+    height: 150rem;
   }
 }
