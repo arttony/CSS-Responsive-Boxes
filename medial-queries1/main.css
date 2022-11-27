@@ -3,41 +3,61 @@ body {
 }
 
 /*mobile view*/
-.container > div{
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+}
+
+/*.container > div{
+  display: flex;
+  align-content: space-between;
+}*/
+
+.a{
+  display: flex;
+  min-width: 100%;
+  min-height: 15rem;
   border: 1px solid gray;
   background-color: lightgray;
   border-radius: .3rem;
-  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
-  flex-wrap: wrap;
-}
-
-.a {
-  min-height: 7rem;
 }
 
 .b{
-  width: 100%;
-  min-height: 115rem;
+  display: flex;
+  min-height: 77rem;
+  min-width: 100%;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .c{
-  width: 100%;
-  min-height: 5rem;
+  display: flex;
+  min-height: 15rem;
+  min-width: 100%;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: .3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 /*desktop view*/
-@media screen and (min-width: 800px){
-  .container{
+@media screen and (min-width: 1000px){
+  .container >div{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-content: space-between;
   }
 
   .a{
-    min-height: 20rem;
+    min-height: 10rem;
     min-width: 100%;
   }
   .b{
